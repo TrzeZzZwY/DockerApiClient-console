@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CRUD_Console_Api_Client": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

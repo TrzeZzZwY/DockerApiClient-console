@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  crud_console_api_client:
+    image: ${DOCKER_REGISTRY-}crudconsoleapiclient
+    build:
+      context: .
+      dockerfile: CRUD_Console_Api_Client/Dockerfile
